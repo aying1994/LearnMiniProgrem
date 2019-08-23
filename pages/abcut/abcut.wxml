@@ -1,0 +1,6 @@
+<!--pages/abcut/abcut.wxml-->
+<text class="title">Hello world</text>
+<button size="mini">
+按钮
+</button>
+<image src=""></image>
