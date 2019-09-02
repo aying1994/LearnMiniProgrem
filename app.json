@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/abcut/abcut",
-    "pages/home/home"
-  ]
+    "pages/home/home",
+    "pages/abcut/abcut"
+  ],
+  "sitemapLocation": "sitemap16.json"
 }

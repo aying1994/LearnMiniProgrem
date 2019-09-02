@@ -1,2 +1,26 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!--pages/abcut/abcut.wxml-->
+<text class="title">Hello world</text>
+<button size="mini" bindtap="handlebuttoclick">
+按钮
+</button>
+<!--获取用户信息 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGeiUserInfo">获取用户信息</button>
+<!-- 展示用户信息-->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<view wx:for='{{lists}}' wx:key='{{index}}'>
+{{item.name}}{{index}}
+
+</view>
+<view wx:for='{{list}}' wx:key='{{index}}'>
+{{list.data}}{{index}}
+</view>
+<view wx:for='{{list}}' wx:key='{{index}}'>
+{{list.data}}{{index}}
+</view>
+<view wx:for='{{list}}' wx:key='{{index}}'>
+{{list.data}}{{index}}
+</view>
+<view wx:for='{{list}}' wx:key='{{index}}'>
+{{list.data}}{{index}}
+</view>
