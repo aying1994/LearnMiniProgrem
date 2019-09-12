@@ -1,0 +1,16 @@
+<!-- 基本使用-->
+<text>hello text\n</text>
+<text>hello 小程序\n</text>
+<!--基本属性 默认不能选中  true 才能选中-->
+<text selectable="{{true}}">selectable\n</text>
+<text selectable>selectable\n</text>
+
+
+<!--space  空格大小-->
+<text space="ensp">hello text\n</text>
+<text space="emsp">hello text\n</text>
+<text space="nbsp">hello text\n</text>
+<!--
+decode  是否解码文本
+-->
+<text decode> 5 &gt: 3</text>

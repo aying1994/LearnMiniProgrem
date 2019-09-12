@@ -1,6 +1,19 @@
 {
   "pages": [
-    "pages/abcut/abcut",
-    "pages/home/home"
-  ]
+    "pages/scroll/scroll",
+    "pages/input/input",
+    "pages/view/view",
+    
+    "pages/image/image",
+    "pages/button/button",
+    "pages/taxe/text",
+    
+    
+    
+   
+    
+    "pages/home/home",
+    "pages/abcut/abcut"
+  ],
+  "sitemapLocation": "sitemap62.json"
 }

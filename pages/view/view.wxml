@@ -1,0 +1,25 @@
+<!--pages/view/view.wxml-->
+<text>pages/view/view.wxml</text>
+<!--view 的基本使用-->
+<view>哈哈哈
+<text></text>
+<button></button>
+</view >
+<view class="box">呵呵呵 独占一行</view>
+
+
+<button hover-class="box1">aaa</button>
+<!--hover-class -->
+<view class="box1" hover-class="hover-class"></view>
+
+<!--hover-start-time -->
+<view class="box1" hover-class="hover-class" hover-start-time="{{10000}}"></view>
+
+
+<!--hover-stop-propagation 阻止祖先点击状态 -->
+<view class="">
+<view class=""  hover-stop-propagation>
+
+
+</view>
+</view>

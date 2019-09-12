@@ -1,0 +1,17 @@
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>
+
+<!-- input的基本使用 -->
+<input></input>
+
+
+<!-- type 键盘类型常用属性 -->
+<input value="ddd" type="numbr" password=""></input>
+<!-- password -->
+<input password></input>
+<!-- placeholder 站位符-->
+<input placeholder="123"></input>
+
+
+<!-- input 监听bind.... -->
+<input bindblur="" ></input>

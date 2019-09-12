@@ -1,0 +1,33 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<!-- imgage 的基本使用 
+重点 
+可以单便签 也可以双标签
+单标签 一定要有结束/
+便签默认有自己的大小320*240
+image 是行内块元素
+-->
+
+<image/>
+<view>hahah</view>
+
+
+<!-- src  本地和远程 -->
+
+<image src="../../assets/tabbar/cart.png"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/1.d0a16186.png"></image>
+
+
+
+<!-- 选中本地显示-->
+<button bindtap="handleImage">获取图片</button>
+<image src="{{path}}"></image>
+
+<!-- 懒加载 lazy-load 三个屏-->
+<image 
+wx:for="{{10}}"
+bindload="handleImageLoad" lazy-load src="https://res.wx.qq.com/wxdoc/dist/assets/img/1.d0a16186.png"></image>
+
+<!--show-menu-by-longpress	开启长按图片显示识别小程序码菜单 -->
+<image show-menu-by-longpress></image>
+<!--  mode 图片裁剪、缩放的模式 --->

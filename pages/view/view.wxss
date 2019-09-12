@@ -1,0 +1,13 @@
+/* pages/view/view.wxss */
+.box{
+  background: firebrick;
+}
+.box1{
+  background: forestgreen;
+  width: 100px;
+  height: 100px;
+}
+.hover-class{
+  background: hotpink;
+  font-size: 10px
+}
