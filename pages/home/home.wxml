@@ -11,4 +11,4 @@
 -->
 <view>{{counter}}</view>
 <button size="mini" bindtap="handleBtnClick">+</button>
-<button size="mini" bindtap="handleSubtraction">-</button>
+<button size="mini" bindtap="handleSubtraction">-</button   >
