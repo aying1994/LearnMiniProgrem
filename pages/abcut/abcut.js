@@ -5,16 +5,34 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    message:'你好小程序',
+    firstname : 'aa',
+    lastname: 'bb',
+    age:20,
+    isActive:false,
+    nowTime:new Date().toLocaleString(),
+    
   },
+ 
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    setInterval(()=>{
+      this.setData({
+        nowTime: new Date().toLocaleString()
+      })
 
+
+    },1000)
+   
   },
-
+  handleSwitchColor() {
+    this.setData({
+      isActive:!this.data.isActive,
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

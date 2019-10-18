@@ -4,3 +4,7 @@ font-size: 30px;
 }
 
 /* pages/abcut/abcut.wxss */
+.box2{
+  color: red;
+font-size: 30px; 
+}

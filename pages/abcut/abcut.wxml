@@ -1,6 +1,28 @@
-<!--pages/abcut/abcut.wxml-->
-<text class="title">Hello world</text>
-<button size="mini">
-按钮
-</button>
-<image src=""></image>
+
+<text>mustache</text>
+<view>{{message}}</view>
+<view>{{firstname}} {{lastname}}</view>
+<view>{{firstname + ' ' + lastname}}</view>
+<view>{{age >18 ? true :false}}</view>
+<view>{{nowTime}}</view>
+<button size="mini" bindtap="handleSwitchColor">anniu</button>
+<view class='box {{isActive ? "box2" :""}}'> sssssss</view>
+
+<view>***************条件判断**************</view>
+<button size="mini" bindtap="handleSwitchColor">切换显示</button>
+<view wx:if="{{isActive}}"> sssssss</view>
+
+
+<view>********列表渲染wx：for********</view>
+<view wx:for="abc" > {{item}} {{index}}</view>
+
+<view><view>********列表渲染block********</view></view>
+<block>block</block>
+
+
+<view>模板</view>
+
+<template name="contentitem">
+<view>sss</view>
+</template>
+<template is="contentitem"></template>
