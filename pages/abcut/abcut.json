@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my_cps" :"/components/my-cpn/my-cpn"
+
+  }
 }
